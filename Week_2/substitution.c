@@ -34,6 +34,13 @@ bool only_letters (string key)
         {
             return true;
         }
+        for (int j = 0; j < i; j++)
+        {
+            if (key [i] == key [j])
+            {
+                return true;
+            }
+        }
     }
     return false;
 }
