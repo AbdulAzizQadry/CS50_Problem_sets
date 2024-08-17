@@ -16,5 +16,5 @@ int main (void)
     counter += change / 5;
     change %= 5;
     counter += change;
-    printf ("%i", counter);
+    printf ("%i\n", counter);
 }
