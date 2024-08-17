@@ -22,7 +22,7 @@ int main (int argc, string argv [])
 
     string plain = get_string ("plaintext:  ");
     string cipher = substitute (plain, argv[1]);
-    printf ("ciphertext: %s", cipher);
+    printf ("ciphertext: %s\n", cipher);
     return 0;
 }
 
